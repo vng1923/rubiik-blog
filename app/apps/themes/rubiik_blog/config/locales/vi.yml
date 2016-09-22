@@ -25,3 +25,6 @@ vi:
       default: "%Y-%m-%d"
       short: "%Y %d"
       long: "%d/%m/%Y"
+  camaleon_cms:
+    common:
+      search: "Tìm kiếm"
