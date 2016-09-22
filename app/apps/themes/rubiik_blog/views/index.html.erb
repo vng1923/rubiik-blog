@@ -1,0 +1,12 @@
+<%= render partial: 'partials/search_form' %>
+<br />
+<section class="section-white" id="home-view">
+  <div class="container">
+    <div class="row">
+      <% @posts.each_with_index do |post, index| %>
+      <%= raw "<div class='clearfix'></div>" if index%3 == 0 && index > 0 %>
+        <%= render partial: 'partials/post_list_item', locals: {post: post.decorate} %>
+      <% end %>  
+    </div>
+  </div>
+</section>

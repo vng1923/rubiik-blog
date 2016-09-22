@@ -1,0 +1,9 @@
+<div>
+  <h4><%= link_to post.the_title, post.the_url %></h4>
+  <p><%= raw post.the_excerpt %> <%= post.the_edit_link %></p>
+  <h6><%= "#{post.the_author.username} viết ngày #{post.the_created_at}" %></h6>
+  Tags: <% post.the_tags.each do |tag| %>
+  				<%= content_tag :mark do tag.name end %>
+  			<% end %>
+</div>
+<hr />

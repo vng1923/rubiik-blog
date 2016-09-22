@@ -1,0 +1,14 @@
+{
+  "name" : "rubiik blog",
+  "description" : "This is a rubiik theme to blogger. Folder = rubiik_blog",
+  "thumb" : "images/logo.png",
+  "helpers": [
+    "Themes::RubiikBlog::MainHelper"
+  ],
+  "hooks": {
+    "on_active": ["rubiik_blog_on_install_theme"],
+    "on_inactive": ["rubiik_blog_on_uninstall_theme"],
+    "on_theme_settings": ["rubiik_blog_settings"]
+    //here all your hooks
+  }
+}
