@@ -1,4 +1,4 @@
-# rubiik-blog
+# rubiik-blog based on Camaleon CMS
 
 # Requirements
 * Rails 4.1+
