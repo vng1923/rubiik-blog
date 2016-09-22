@@ -9,6 +9,8 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require camaleon_cms/bootstrap.min.css
+ *= require themes/rubiik_blog/assets/css/bootstrap-social.css
  *= require font-awesome
  *= require ./styles
+
  */
