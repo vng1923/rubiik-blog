@@ -9,8 +9,6 @@
 # Installation
 * Install Ruby on Rails 4.1+
   [Visit here.](http://railsapps.github.io/installing-rails.html)
-
-  ```
   
 * Install required Gem and dependencies
 
