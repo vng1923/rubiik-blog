@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/huyngvu/camaleon-google-analytic.git
+  revision: bcd8db54cb8c1b88a57cc9e848340f08a6768f6c
+  branch: master
+  specs:
+    camaleon_google_analytic (0.0.1)
+      rails (~> 4.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -191,6 +199,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   camaleon_cms
+  camaleon_google_analytic!
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
