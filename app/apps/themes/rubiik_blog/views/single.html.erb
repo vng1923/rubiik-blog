@@ -1,3 +1,4 @@
+<h1><%= content_for(:title, "#{@post.the_title} - Rubiik's blog") %></h1>
 <div class="container-fluid">
   <%= render partial: 'partials/breadcrumb', locals: {breadcrumb: @post.the_breadcrumb} %>
   <div class="row">
