@@ -53,7 +53,9 @@ gem 'camaleon_cms'#, :path => '../../gems/camaleon-cms'
 
 # gem 'koala', github: 'huyngvu/koala', branch: 'master'
 
-gem 'camaleon_google_analytic', github: 'huyngvu/camaleon-google-analytic', branch: 'master' #, path: '../../gems/camaleon-google-analytic'
+gem 'camaleon_google_analytic', github: 'huyngvu/camaleon-google-analytic', branch: 'master'
+
+# gem 'camaleon_google_analytic', path: '../../gems/camaleon-google-analytic'
 
 #################### Camaleon CMS include all gems for plugins and themes #################### 
 require './lib/plugin_routes' 
