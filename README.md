@@ -1,5 +1,7 @@
 # rubiik-blog based on Camaleon CMS
 
+# Deployed to http://blog.rubiik.com
+
 # Requirements
 * Rails 4.1+
 * MySQL 5+ or SQlite or PostgreSQL
