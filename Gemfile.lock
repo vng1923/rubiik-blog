@@ -1,5 +1,7 @@
-PATH
-  remote: ../../gems/camaleon-google-analytic
+GIT
+  remote: git://github.com/huyngvu/camaleon-google-analytic.git
+  revision: 614ed697e0c4e30979f407cd7714c10c25e4300c
+  branch: master
   specs:
     camaleon_google_analytic (0.0.1)
       rails (~> 4.2)
