@@ -25,7 +25,7 @@
           <h1><%= raw @post.the_title %> <%= @post.the_edit_link %></h1>
           
           <div class="item-content">
-            <%= raw @post.the_content %>
+            <%= raw markdown(@post.the_content) %>
           </div>
         </article>
         <div>
